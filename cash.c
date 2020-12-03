@@ -8,10 +8,10 @@ int main(void){
     do{if(flag==1){
     printf("foo\n");
     }
-     a=get_float("Change owed: ");
+     C=get_float("Change owed: ");
      
      flag=1;
-    }while(a<=0);
+    }while(C<=0);
     int cents=round(a*100);
     int cnt=0;
     while(cents/25>=1){
